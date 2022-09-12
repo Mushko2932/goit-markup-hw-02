@@ -1,0 +1,235 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --container-bg-color: #2F303A;
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+    --primary-font-size: 14px;
+    --secondary-font-size: 16px;
+}
+
+body {
+    font-family: var(--secondary-font);
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.list, .items {
+    list-style: none;
+}
+
+.page-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.link-nav .current {
+    color: var(--accent-color);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--accent-color);
+}
+
+.link {
+    font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    padding-left: 215px;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 32px;
+}
+
+.site-nav .link-nav {
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.auth-nav .badge {
+    padding-left: 50px;
+}
+
+.auth-nav {
+    padding-right: 331px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.page-header {
+    background-color: var(--primary-white-color);
+    height: 80px;
+}
+
+/* Main */
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 34px;
+    margin-bottom: 94px;
+}
+
+.item {
+    width: 370px;
+    height: 404px;
+
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button .service-button  {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.button .service-button:hover,
+.button .service-button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.caption {
+    color: var(--title-text-color);
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+}
+
+.text {
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--container-bg-color);
+    height: 252px;
+}
+
+.logo-lower {
+    font-family: var(--primary-font);
+    padding-left: 375px;
+    text-decoration: none;
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.adress-list .link {
+    padding-left: 335px;
+    padding-bottom: 60px;
+    color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: var(--primary-font-size);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.adress-list .contact {
+    color: var(--primary-text-color);
+    padding-left: 335px;
+    font-size: var(--primary-font-size);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    padding-bottom: 60px;
+    text-decoration: none;
+}
+
+.adress-list .link:hover,
+.adress-list .link:focus {
+    color: var(--accent-color);
+}
+
+.adress {
+    font-style: normal;
+}
+
+.adress-list .contact:hover,
+.adress-list .contact:focus {
+    color: var(--accent-color);
+}
